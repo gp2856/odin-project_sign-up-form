@@ -16,6 +16,8 @@ body , html{
     max-width: 100%;
     width: 100%;
     box-sizing:border-box;
+    flex: 1;
+    overflow-y: auto;
 }
 .form-row {
     display: flex;
@@ -66,9 +68,6 @@ input.error {
     width: 100vw;
     overflow:hidden;
 }
-.about {
-    font-size: 36px;
-}
 
 .main-content {
     display: flex;
@@ -76,14 +75,24 @@ input.error {
     gap: 1.25rem;
     flex: 1;
     overflow-y: auto;
+    padding-right:1.25rem;
 }
-.about, .form-container, .register {
+
+.about {
     flex: none;
+    font-size: 36px;
+    max-width: 80vw;
+    width: 100%;
+    box-sizing: border-box;
 }
 .sidebar {
     flex: 0 0 200px;
     display: flex;
 }
 
+.register {
+    align-self: flex-start;
+    margin-top: auto;
+}
 
 
