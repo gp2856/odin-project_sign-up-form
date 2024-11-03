@@ -1,2 +1,2 @@
-# odin-project_sing-up-form
+# odin-project_sign-up-form
 Sign up form project for the Odin Project
