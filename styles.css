@@ -9,7 +9,7 @@ body , html{
 .form-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: start;
     gap: 1.25rem;
     margin: 0 auto;
     padding: 1rem;
@@ -18,8 +18,11 @@ body , html{
     box-sizing:border-box;
     flex: 1;
     overflow-y: auto;
+    margin-left: auto;
     box-shadow: inset 0 8px 6px -6px rgba(0, 0, 0, 0.1),
                 inset 0 -8px 6px -6px rgba(0, 0, 0, 0.3);
+    height: calc(100vh - 2rem);
+    padding-bottom: 3rem;
 }
 
 .form-row {
@@ -98,7 +101,11 @@ input:invalid {
 
 .register {
     align-self: flex-start;
-    margin-top: auto;
+    margin-top: 1.25rem;
+    box-shadow: 0 -8px 6px -6px rgba(0, 0, 0, 0.3);
+    padding-top: 1rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 button {
@@ -119,4 +126,8 @@ button {
 
 button:hover {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.form-header {
+    font-weight: 850;
 }
