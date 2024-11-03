@@ -101,4 +101,22 @@ input:invalid {
     margin-top: auto;
 }
 
+button {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    background-color: #596D48;
+    font-weight: 900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 55px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
 
+button:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
