@@ -104,8 +104,9 @@ input:invalid {
     box-sizing: border-box;
 }
 .sidebar {
-    flex: 0 0 200px;
+    flex: 0 0 400px;
     display: flex;
+    background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
 }
 
 .register {
