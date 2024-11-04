@@ -110,6 +110,7 @@ input:invalid {
 
 .about {
     flex: none;
+    padding-top:120px;
     font-size: 36px;
     max-width: 80vw;
     width: 100%;
