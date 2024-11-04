@@ -1,5 +1,14 @@
 @import 'normalize.css';
+@font-face {
+    font-family: Norse-Bold;
+    src: url("fonts/Norse-Bold.otf") format("opentype");
+}
+
+
 body , html{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
     padding: 0;
     height: 100%;
