@@ -107,6 +107,9 @@ input:invalid {
     flex: 0 0 400px;
     display: flex;
     background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .register {
@@ -139,5 +142,6 @@ button:hover {
 }
 
 .form-header {
-    font-weight: 850;
+    font-weight: 400;
+    font-size:20px;
 }
