@@ -1,8 +1,4 @@
 @import 'normalize.css';
-@font-face {
-    font-family: Norse-Bold;
-    src: url("fonts/Norse-Bold.otf") format("opentype");
-}
 
 
 body , html{
@@ -14,6 +10,24 @@ body , html{
     height: 100%;
     width: 100%;
     box-sizing: border-box;
+}
+.logo {
+    font-family: Norse;
+    padding: 5px;
+    margin-top: 0;
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    font-size: 112px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.logo img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
 }
 .form-container {
     display: flex;
@@ -104,12 +118,18 @@ input:invalid {
     box-sizing: border-box;
 }
 .sidebar {
-    flex: 0 0 400px;
+    flex: 0 0 500px;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
     background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 200px;
+    margin-top: 0;
+    overflow: hidden;
 }
 
 .register {
