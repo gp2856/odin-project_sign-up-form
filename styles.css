@@ -42,8 +42,6 @@ body , html{
     flex: 1;
     overflow-y: auto;
     margin-left: auto;
-    box-shadow: inset 0 8px 6px -6px rgba(0, 0, 0, 0.1),
-                inset 0 -8px 6px -6px rgba(0, 0, 0, 0.3);
     height: calc(100vh - 2rem);
     padding-bottom: 3rem;
 }
@@ -137,6 +135,7 @@ input:invalid {
     margin-top: 1.25rem;
     box-shadow: 0 -8px 6px -6px rgba(0, 0, 0, 0.3);
     padding-top: 1rem;
+    padding-left: 1rem;
     width: 100%;
     box-sizing: border-box;
 }
@@ -164,4 +163,17 @@ button:hover {
 .form-header {
     font-weight: 400;
     font-size:20px;
+}
+.shadow-top, .shadow-bottom {
+    display: flex;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.shadow-top {
+    box-shadow: inset 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+}
+.shadow-bottom {
+    box-shadow: inset 0 -8px 6px -6px rgba(0, 0, 0, 0.3);
 }
